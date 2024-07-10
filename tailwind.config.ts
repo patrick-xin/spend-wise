@@ -13,7 +13,7 @@ const config = {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: "1rem",
       screens: {
         "2xl": "1400px",
       },
@@ -22,28 +22,6 @@ const config = {
       fontFamily: {
         sans: ["var(--font-inter)"],
         "dm-sans": ["var(--font-dm-sans)"],
-      },
-      fontSize: {
-        h1: ["var(--font-size-h1)", { lineHeight: "var(--line-height-h1)" }],
-        "body-large": [
-          "var(--font-size-body-large)",
-          { lineHeight: "var(--line-height-body-large)" },
-        ],
-        h2: ["var(--font-size-h2)", { lineHeight: "var(--line-height-h2)" }],
-        "body-small-tag": [
-          "var(--font-size-body-small-tag)",
-          { lineHeight: "auto" },
-        ],
-        h5: ["var(--font-size-h5)", { lineHeight: "auto" }],
-        "body-medium": [
-          "var(--font-size-body-medium)",
-          { lineHeight: "var(--line-height-body-medium)" },
-        ],
-        "body-s": ["var(--font-size-body-s)", { lineHeight: "auto" }],
-        h4: ["var(--font-size-h4)", { lineHeight: "var(--line-height-h4)" }],
-        "body-bold": ["var(--font-size-body-bold)", { lineHeight: "auto" }],
-        "body-s-bold": ["var(--font-size-body-s-bold)", { lineHeight: "auto" }],
-        tag: ["var(--font-size-tag)", { lineHeight: "var(--line-height-tag)" }],
       },
       colors: {
         border: "hsl(var(--border))",

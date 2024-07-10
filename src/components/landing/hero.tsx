@@ -21,20 +21,20 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="mx-[27.5px] md:mx-[28.5px] mt-[64.5px] mb-[89.5px]">
+      <div className="mx-[28px] md:mx-[28px] mt-[64px] mb-[90px] max-w-6xl lg:mx-auto">
         <div className="space-y-8">
           <div className="text-center">
             <Tag />
           </div>
           <h1
-            className="text-white font-dm-sans ml-[26px] mr-[26px] text-[54px] font-bold text-balance text-center leading-[50px]
-          
+            className="text-white ml-[26px] mr-[26px] font-bold text-balance text-center 
+          text-[54px] leading-[50px]
           md:text-[144px] md:leading-[120px] md:tracking-[-2.5%]
           lg:text-[165px] lg:leading-[125px] lg:tracking-[-7.5%]"
           >
             One Task at a Time
           </h1>
-          <p className="text-[21px] leading-[31px] font-sans mx-auto text-center w-[335px] md:w-[457px]">
+          <p className="text-[21px] leading-[31px] mx-auto text-center w-[335px] md:w-[457px] lg:w-auto max-w-xl">
             Celebrate the joy of accomplishment with an app designed to track
             your progress, motivate your efforts, and celebrate your successes.
           </p>
@@ -46,7 +46,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="absolute bg-[radial-gradient(closest-side,#000_82%,#9560EB)] border border-[#B48CDE] top-[480px] h-[375px] w-[909px] md:h-[1014px] md:w-[1924px] md:top-[591px] lg:w-[2344px] xl:w-[3344px] rounded-[100%] left-1/2 -translate-x-1/2"></div>
+      <div className="absolute bg-[radial-gradient(closest-side,#000_82%,#9560EB)] border border-[#B48CDE] top-[480px] h-[375px] w-[909px] md:h-[1014px] md:w-[1924px] md:top-[591px] lg:top-[570px] lg:w-[2344px] xl:w-[3344px] rounded-[100%] left-1/2 -translate-x-1/2" />
     </div>
   );
 }

@@ -4,11 +4,11 @@ function Interface() {
   return (
     <div className="px-[17px] md:px-[48px]">
       <div className="pt-[93px] pb-[84px] text-center">
-        <div className="pb-[60px]">
-          <h2 className="font-dm-sans font-bold text-center text-h2 mb-5 md:text-5xl">
+        <div className="pb-[60px] space-y-5">
+          <h2 className="font-bold text-center text-3xl md:text-5xl">
             Intuitive interface
           </h2>
-          <p className="text-body-large">
+          <p className="text-center max-w-2xl mx-auto text-lg md:text-xl">
             Celebrate the joy of accomplishment with an app designed to track
             your progress, motivate your efforts, and celebrate your successes,
             one task at a time.
@@ -17,11 +17,12 @@ function Interface() {
 
         <div className="relative">
           <Image
+            quality={100}
             alt="App-Night"
             height={2000}
             width={2000}
             src="/images/App-Night.png"
-            className="object-cover size-full w-[356px] h-[220px] md:w-[704px] md:h-[437px]"
+            className="object-cover size-full"
           />
         </div>
       </div>

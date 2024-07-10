@@ -33,24 +33,6 @@
     --ring: 0 0% 3.9%;
 
     --radius: 0.5rem;
-
-    --font-size-h1: 5.625rem;
-    --line-height-h1: 1;
-    --font-size-body-large: 22px;
-    --line-height-body-large: 1.41;
-    --font-size-h2: 2rem;
-    --line-height-h2: 1.11;
-    --font-size-body-small-tag: 0.875rem;
-    --font-size-h5: 16px;
-    --font-size-body-medium: 1rem;
-    --line-height-body-medium: 1.44;
-    --font-size-body-s: 0.875rem;
-    --font-size-h4: 1.625rem;
-    --line-height-h4: 2.31;
-    --font-size-body-bold: 1rem;
-    --font-size-body-s-bold: 0.875rem;
-    --font-size-tag: 0.8125rem;
-    --line-height-tag: 2.38;
   }
 
   .dark {
@@ -81,24 +63,6 @@
     --border: 0 0% 14.9%;
     --input: 0 0% 14.9%;
     --ring: 0 0% 83.1%;
-
-    --font-size-h1: 5.625rem;
-    --line-height-h1: 1;
-    --font-size-body-large: 1.375rem;
-    --line-height-body-large: 1.41;
-    --font-size-h2: 2rem;
-    --line-height-h2: 1.11;
-    --font-size-body-small-tag: 0.875rem;
-    --font-size-h5: 16px;
-    --font-size-body-medium: 1rem;
-    --line-height-body-medium: 1.44;
-    --font-size-body-s: 0.875rem;
-    --font-size-h4: 1.625rem;
-    --line-height-h4: 2.31;
-    --font-size-body-bold: 1rem;
-    --font-size-body-s-bold: 0.875rem;
-    --font-size-tag: 0.8125rem;
-    --line-height-tag: 2.38;
   }
 }
 
@@ -108,6 +72,13 @@
   }
   body {
     @apply bg-background text-foreground font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-dm-sans;
   }
   .banner-gradient {
     background-image: linear-gradient(
@@ -138,53 +109,5 @@
       #46217e 34%,
       #05020a 100%
     );
-  }
-
-  .blob-container {
-    width: 909px;
-    height: 359px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .blob {
-    width: 908px;
-    height: 358px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(0, 0, 0, 0.7) 69%,
-      rgba(156, 103, 244, 0.7) 100%
-    );
-  }
-
-  .blob::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(
-      to bottom,
-      rgba(190, 154, 231, 0.5) 0%,
-      rgba(106, 86, 129, 0) 58%
-    );
-    border-radius: 50%;
-  }
-
-  .blob::after {
-    content: "";
-    position: absolute;
-    top: -179px;
-    left: -454px;
-    right: -454px;
-    bottom: -179px;
-    background: #fff;
-    border-radius: 50%;
   }
 }
